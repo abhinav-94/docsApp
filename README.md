@@ -19,9 +19,9 @@ I have attached 3 PNG files also as a reference.
 ---------------------FOR SETTING UP THE APPLICATION--------------------------------
 
 1) Please start a local mysql server on the default port.
-   I have given my connection details in the mysql.js file to establish the connection and 
-   then have created table through sqlOps.js file. Please give your local connection details to establish the connection.
-2) Run node server.js to start the backend server.
+   I have given my connection details in the mysql.js file to establish the connection.
+   Please give your local connection details to establish the connection.
+2) Run node server.js to start the backend server.(It will trigger sqlOps.js file to create the table).
 3) You can access the urls by going to 
   localhost:3000/customerApp.html
   localhost:3000/driverApp.html
