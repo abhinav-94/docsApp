@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <title>Driver App</title>
+    <link href="driverAppCss.css" rel="stylesheet">
+    <style>
+      table, th {
+        border: 1px solid black;
+        text-align:center;
+      },
+      td {
+        text-align:center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form id="test" action="http://localhost:3000/driver" method="post">
+      <div>
+        <label for="driverId">Enter the Driver ID</label>
+        <input name="driverId" type="number" id="driver" value=""/>
+      </div>
+      <div>
+        <input type="submit" value="Search"/>
+      </div>
+    </form>
+    <br>
+    <!-- <button class="button" onclick="location.reload();">Refresh Page</button> -->
+    <br>
+    <br>
+    <div id="root"></div>
+    <pre id="output"></pre>
+    <script src="driverAppScript.js"></script>
+  </body>
+
+</html>
