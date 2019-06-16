@@ -14,6 +14,7 @@ For Driver App, there are 3 columns - Waiting, Ongoing, Complete- Driver can onl
 Because while booking, I am firstly checking if the driver has any Ongoing request or not. If the request is already booked 
 by one driver, it cannot be booked by any other driver. routes supporting it are /driver and /confirm.
 
+I have attached 3 PNG files also as a reference. 
 
 ---------------------FOR SETTING UP THE APPLICATION--------------------------------
 
